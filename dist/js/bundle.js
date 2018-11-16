@@ -77,23 +77,56 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "dist/";
+/******/ 	__webpack_require__.p = "/dist/";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/main.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/***/ "./public/css/demo.css":
+/*!*****************************!*\
+  !*** ./public/css/demo.css ***!
+  \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("throw new Error(\"Module build failed: Error: ENOENT: no such file or directory, open 'C:\\\\xampp\\\\htdocs\\\\ZR\\\\demo\\\\src\\\\index.js'\");\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./public/css/demo.css?");
+
+/***/ }),
+
+/***/ "./public/img/1.png":
+/*!**************************!*\
+  !*** ./public/img/1.png ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/f8b62f1e.1.png\";\n\n//# sourceURL=webpack:///./public/img/1.png?");
+
+/***/ }),
+
+/***/ "./public/js/demo.js":
+/*!***************************!*\
+  !*** ./public/js/demo.js ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports=(function(){\r\n    alert(\"hello\");\r\n    var start=document.getElementById(\"start\");\r\n    var img=document.getElementById(\"img\");\r\n    var oImg=__webpack_require__(/*! ../img/1.png */ \"./public/img/1.png\");\r\n    img.src=oImg;\r\n})();\n\n//# sourceURL=webpack:///./public/js/demo.js?");
+
+/***/ }),
+
+/***/ "./src/main.js":
+/*!*********************!*\
+  !*** ./src/main.js ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("const demo=__webpack_require__(/*! ../public/js/demo.js */ \"./public/js/demo.js\");\r\nconst demoCss=__webpack_require__(/*! ../public/css/demo.css */ \"./public/css/demo.css\");\n\n//# sourceURL=webpack:///./src/main.js?");
 
 /***/ })
 
