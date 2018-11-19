@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/dist/";
+/******/ 	__webpack_require__.p = "./";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -85,6 +85,17 @@
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./public/css/02.css":
+/*!***************************!*\
+  !*** ./public/css/02.css ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./public/css/02.css?");
+
+/***/ }),
 
 /***/ "./public/css/demo.css":
 /*!*****************************!*\
@@ -108,6 +119,17 @@ eval("module.exports = __webpack_require__.p + \"images/f8b62f1e.1.png\";\n\n//#
 
 /***/ }),
 
+/***/ "./public/js/02.js":
+/*!*************************!*\
+  !*** ./public/js/02.js ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("/* WEBPACK VAR INJECTION */(function(__dirname) {module.exports=function(){\r\n    var link=document.getElementById(\"link\");\r\n    link.onclick=function(e){\r\n        e.preventDefault();\r\n        href.location=__dirname+\"/02.html\";\r\n    }\r\n}\n/* WEBPACK VAR INJECTION */}.call(this, \"/\"))\n\n//# sourceURL=webpack:///./public/js/02.js?");
+
+/***/ }),
+
 /***/ "./public/js/demo.js":
 /*!***************************!*\
   !*** ./public/js/demo.js ***!
@@ -126,7 +148,7 @@ eval("module.exports=(function(){\r\n    alert(\"hello\");\r\n    var start=docu
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const demo=__webpack_require__(/*! ../public/js/demo.js */ \"./public/js/demo.js\");\r\nconst demoCss=__webpack_require__(/*! ../public/css/demo.css */ \"./public/css/demo.css\");\n\n//# sourceURL=webpack:///./src/main.js?");
+eval("const demo=__webpack_require__(/*! ../public/js/demo.js */ \"./public/js/demo.js\");\r\nconst demoCss=__webpack_require__(/*! ../public/css/demo.css */ \"./public/css/demo.css\");\r\n\r\nconst twoCss=__webpack_require__(/*! ../public/css/02.css */ \"./public/css/02.css\");\r\nconst two=__webpack_require__(/*! ../public/js/02.js */ \"./public/js/02.js\");\n\n//# sourceURL=webpack:///./src/main.js?");
 
 /***/ })
 

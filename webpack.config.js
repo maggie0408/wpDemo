@@ -15,7 +15,7 @@ module.exports={
     output:{
         path:path.resolve(__dirname,'dist'),
         filename:"js/bundle.js",
-        publicPath:"/dist/"       
+        publicPath:"./"       
     },
 
     module:{
@@ -54,7 +54,7 @@ module.exports={
         ),
 
         new htmlWebpackPlugin({
-            filename:'html/index.html',
+            filename:'index.html',
             template:'./public/html/index.html'
         })
     ],
